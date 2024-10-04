@@ -29,10 +29,3 @@ Este proyecto es un sitio web que muestra las cotizaciones en tiempo real del d�
    ```bash
    git clone https://github.com/roberteban/Sitio-de-Cotizaciones.git
 2. Abre el archivo index.html en tu navegador web.
-
-## Vista previa
-- El sitio mostrará las cotizaciones en tiempo real, como se ve a continuación:
-Dólar a Euro: [cotización]
-Dólar a Bitcoin: [cotización]
-Dólar a Peso Argentino: [cotización]
-- Mientras los datos se cargan, se mostrará una imagen de carga (loading.gif).
