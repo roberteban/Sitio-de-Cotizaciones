@@ -3,26 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cotización del Dólar</title>
+    <title>Cotización del Dólar en Tiempo Real</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body onload="cargarContenido()">
     <div class="logo">
-        <!-- Se incluye el logo con la fuente del archivo logo.png -->
-        <img id="imgLogo" src="logo.png" alt="Logo de Cotización" />
+        <img id="imgLogo" src="logo.png" alt="Logo" />
         <h1 id="titulo"></h1>
     </div>
     <hr>
     <div class="cuadro">
-        <!-- Divisiones para mostrar las cotizaciones -->
         <div id="UsdEur"></div>           
-        <div id="UsdArs"></div>        
-        <div id="BitcoinUsd"></div>
+        <div id="BitcoinUsd"></div>        
+        <div id="UsdArs"></div>
     </div>     
     <div class="espera">
-        <!-- Imagen que se mostrará mientras se cargan los datos -->
-        <img id="imgEspera" src="loading.gif" alt="Cargando..."/>
+        <img id="imgEspera" alt="Cargando..."/>
     </div>
 </body>
 </html>
