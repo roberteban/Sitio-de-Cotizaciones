@@ -1,6 +1,6 @@
 # Sitio de Cotizaciones
 
-Este proyecto es un sitio web que muestra las cotizaciones en tiempo real del dólar en relación con el euro, bitcoin y peso argentino. El sitio utiliza programación asíncrona para consultar APIs externas y mostrar los resultados de forma dinámica en la interfaz.
+Este proyecto es un sitio web que muestra las cotizaciones en tiempo real del dólar en relación con el euro, bitcoin y peso argentino. El sitio utiliza programación asíncrona para consultar APIs externas y mostrar los resultados de forma dinámica en la interfaz. Este proyecto busca proporcionar una herramienta fácil de usar para seguir el valor del dólar frente a otras monedas importantes.
 
 ## Tecnologías utilizadas
 
