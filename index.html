@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotización del Dólar</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body onload="cargarContenido()">
+    <div class="logo">
+        <!-- Se incluye el logo con la fuente del archivo logo.png -->
+        <img id="imgLogo" src="logo.png" alt="Logo de Cotización" />
+        <h1 id="titulo"></h1>
+    </div>
+    <hr>
+    <div class="cuadro">
+        <!-- Divisiones para mostrar las cotizaciones -->
+        <div id="UsdEur"></div>           
+        <div id="UsdArs"></div>        
+        <div id="BitcoinUsd"></div>
+    </div>     
+    <div class="espera">
+        <!-- Imagen que se mostrará mientras se cargan los datos -->
+        <img id="imgEspera" src="loading.gif" alt="Cargando..."/>
+    </div>
+</body>
+</html>
