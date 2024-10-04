@@ -28,4 +28,4 @@ Este proyecto es un sitio web que muestra las cotizaciones en tiempo real del d√
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/roberteban/Sitio-de-Cotizaciones.git
-2. Abre el archivo index.html en tu navegador web.
+2. Abre el archivo `index.html` en tu navegador web.
